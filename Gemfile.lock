@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    a1447ll_hpbd (1.0.1)
     actionmailer (4.2.0)
       actionpack (= 4.2.0)
       actionview (= 4.2.0)
@@ -177,6 +178,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  a1447ll_hpbd (~> 1.0, >= 1.0.1)
   byebug
   capistrano (~> 3.8)
   capistrano-bundler
