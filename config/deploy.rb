@@ -1,6 +1,4 @@
 # config valid for current version and patch releases of Capistrano
-require "bundler/capistrano"
-
 lock "~> 3.10.0"
 
 set :application, "AppForDeploy"
