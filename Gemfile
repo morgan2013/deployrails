@@ -49,5 +49,3 @@ group :development do
   gem 'capistrano-bundler'
   gem 'capistrano-rvm'
 end
-
-gem 'a1447ll_hpbd', '~> 1.0', '>= 1.0.1'
