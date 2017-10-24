@@ -5,7 +5,7 @@ set :application, "AppForDeploy"
 set :repo_url, "git@github.com:morgan2013/deployrails.git"
 set :branch, ENV["REVISION"] || ENV["BRANCH"] || "develop"
 set :linked_files, %w{config/database.yml config/secrets.yml}
-set :linked_dirs, %w{log tmp/pids tmp/cache public/system public/assets public/photos tmp/letter_opener}
+set :linked_dirs, %w{log tmp/pids tmp/cache public/system public/assets tmp/letter_opener}
 set :rvm_ruby_version, 'ruby-2.2.2'
 set :keep_releases, 5
 
